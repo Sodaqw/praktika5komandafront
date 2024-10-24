@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>SkillSphere</title>
+</head>
+
+<body>
+    <div class="Eight">
+        <div class="bloc">
+            <div class="logo">
+                <img src="./assets/icons/Logo1.svg" alt="">
+                <h1>SkillSphere</h1>
+            </div>
+            <div class="Main">
+                <div class="custom-select">
+                    <select id="select">
+                        <option value="" selected hidden>Select</option>
+                        <option value="1">Функция1</option>
+                        <option value="2">Функция2</option>
+                        <option value="3">Функция3</option>
+                        <option value="clear">Отменить выбор</option> <!-- Опция для отмены выбора -->
+                    </select>
+                </div>
+                <table>
+                    <tr>
+                        <th>Вакансии</th>
+                        <th>Зарплата</th>
+                    </tr>
+                    <tr>
+                        <td>Навык</td>
+                        <td>Требуемый опыт</td>
+                    </tr>
+                    <tr>
+                        <td>Навык</td>
+                        <td>Требуемый опыт</td>
+                    </tr>
+                    <tr>
+                        <td>Навык</td>
+                        <td>Требуемый опыт</td>
+                    </tr>
+                    <tr>
+                        <td>Навык</td>
+                        <td>Требуемый опыт</td>
+                    </tr>
+                    <tr>
+                        <td>Навык</td>
+                        <td>Требуемый опыт</td>
+                    </tr>
+                    <tr>
+                        <td>Навык</td>
+                        <td>Требуемый опыт</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="buttons">
+                <a href="index7.html" class="Exit"><button><img src="./assets/icons/Arrow Left.svg" alt=""></button></a>
+                <a href="index9.html" class="submit-btn">Продолжить</a>
+            </div>
+        </div>
+    </div>
+    <script>
+        document.getElementById('select').addEventListener('change', function() {
+            if (this.value === 'clear') {
+                this.selectedIndex = 0; // Сброс выбора на первую опцию (Select)
+            }
+        });
+    </script>
+</body>
+
+</html>

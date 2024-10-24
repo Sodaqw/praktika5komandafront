@@ -1,0 +1,1317 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  list-style-type: none;
+  box-sizing: border-box;
+  color: #ffffff;
+  font-family: "Inter";
+}
+
+h1 {
+  font-size: 40px;
+  color: #FFFFFF;
+  font-family: "Bold";
+}
+
+h2 {
+  font-size: 40px;
+  color: #FFFFFF;
+  font-family: "Bold";
+}
+
+h3 {
+  font-family: "SemiBold";
+}
+
+h4 {
+  font-family: "Bold";
+}
+
+p {
+  font-family: "Regular";
+}
+
+body {
+  display: flex;
+  max-width: 1920px;
+}
+
+.lending {
+  display: flex;
+  background: url(../assets/img/Фон_лэндинга.png);
+  max-width: 1920px;
+}
+
+.Registration {
+  display: flex;
+}
+.Registration .left {
+  width: 960px;
+  display: flex;
+  flex-direction: column;
+  background: url(../assets/img/left\ —\ копия.png);
+}
+.Registration .left .Form {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  padding: 160px 247px;
+}
+.Registration .left .Form .Inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.Registration .left .Form .Inputs input {
+  color: #FFFFFF;
+  border-bottom: 1px solid #FFFFFF;
+  font-size: 24px;
+  background: none;
+}
+.Registration .left .Form .Enter {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.Registration .left .Form .Enter .submit-btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 32px;
+  background-color: #8B5CF6;
+  color: white;
+  text-decoration: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-align: center;
+}
+.Registration .left .Form .Enter .submit-btn:hover {
+  background-color: #FFFFFF;
+  color: #8B5CF6;
+}
+.Registration .left .Form .Enter .link {
+  text-decoration: none;
+  font-size: 18px;
+}
+.Registration .left .Form .Enter .link:hover {
+  text-decoration: underline;
+}
+.Registration .left .Form .Enter .register-link {
+  color: #8B5CF6;
+}
+.Registration .left .Form .Enter .login-link {
+  color: #8B5CF6;
+}
+.Registration .left .Form .Enter .Altready {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Registration .left .Form .Enter .Altready p {
+  color: #FFFFFF;
+  font-size: 16px;
+}
+.Registration .left .Form .Enter .Altready p1 {
+  color: #8B5CF6;
+  font-size: 16px;
+}
+.Registration .left .Form .Auth {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+.Registration .left .Form .Auth p {
+  color: #FFFFFF;
+  font-size: 24px;
+}
+.Registration .left .Form .Auth .Icons {
+  display: flex;
+  gap: 40px;
+}
+.Registration .right {
+  width: 960px;
+  display: flex;
+  background: url(../assets/img/right\ —\ копия.png);
+}
+.Registration .right .Hello {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 235px;
+  gap: 10px;
+}
+.Registration .right .Hello h1 {
+  font-size: 80px;
+  text-align: center;
+}
+.Registration .right .Hello img {
+  width: 100%;
+  height: 48px;
+}
+
+.Forgot {
+  display: flex;
+  justify-content: space-between;
+}
+.Forgot .Remember {
+  display: flex;
+  gap: 8px;
+}
+.Forgot p {
+  color: #8B5CF6;
+  font-size: 16px;
+}
+
+.Three {
+  display: flex;
+  width: 100%;
+  background: url(../assets/img/1.png);
+  justify-content: center;
+  height: 1080px;
+}
+.Three .bloc {
+  display: flex;
+  flex-direction: column;
+  gap: 65px;
+  padding: 240px;
+  padding-top: 64px;
+}
+.Three .bloc .logo {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.Three .bloc .Sphere {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+.Three .bloc .Sphere h2 {
+  font-size: 30px;
+}
+.Three .bloc .Sphere .Options {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.Three .bloc .Sphere .Options .one {
+  display: flex;
+  gap: 24px;
+}
+.Three .bloc .Sphere .Options .one button {
+  align-items: center;
+  width: -moz-fit-content;
+  width: fit-content;
+  background: #FFFFFF;
+  border-radius: 12px;
+  display: flex;
+  gap: 10px;
+  color: #000000;
+  padding: 12px 28px;
+  font-size: 22px;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.Three .bloc .Sphere .Options button:hover {
+  background-color: #8B5CF6;
+  color: #FFFFFF;
+}
+.Three .bloc .Sphere .Options button.active {
+  background-color: #8B5CF6;
+  color: #FFFFFF;
+}
+.Three .bloc .Sphere .Options .two {
+  display: flex;
+  gap: 24px;
+}
+.Three .bloc .Sphere .Options .two button {
+  align-items: center;
+  width: -moz-fit-content;
+  width: fit-content;
+  background: #FFFFFF;
+  border-radius: 12px;
+  display: flex;
+  gap: 10px;
+  color: #000000;
+  padding: 12px 28px;
+  font-size: 22px;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.Three .bloc .Sphere .Options button:hover {
+  background-color: #8B5CF6;
+  color: #FFFFFF;
+}
+.Three .bloc .Sphere .Options button.active {
+  background-color: #8B5CF6;
+  color: #FFFFFF;
+}
+.Three .bloc .Sphere button {
+  align-items: center;
+  width: -moz-fit-content;
+  width: fit-content;
+  width: 476px;
+  height: 62px;
+  display: flex;
+  border-radius: 12px;
+  gap: 10px;
+  color: #000000;
+  padding: 12px 28px;
+  font-size: 22px;
+  background: #FFFFFF;
+  justify-content: center;
+}
+.Three .bloc .navigation {
+  display: flex;
+  justify-content: flex-start;
+  /* Выровнять кнопки по левому краю */
+  gap: 20px;
+  /* Задает расстояние между кнопками */
+  margin-top: 20px;
+  /* Отступ сверху для кнопок */
+}
+.Three .bloc .Exit button {
+  display: flex;
+  padding: 8px;
+  height: 45px;
+  width: 48px;
+  border-radius: 12px;
+  background-color: #FFFFFF;
+  transition: background-color 0.3s ease;
+}
+.Three .bloc .submit-btn {
+  display: inline-block;
+  padding: 8px 20px;
+  font-size: 24px;
+  width: 180px;
+  background-color: #8B5CF6;
+  color: white;
+  text-decoration: none;
+  border-radius: 20px;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+.Three .bloc .submit-btn:hover {
+  background-color: #FFFFFF;
+  color: #8B5CF6;
+}
+
+.Four {
+  display: flex;
+  width: 100%;
+  background: url(../assets/img/2.png);
+  justify-content: center;
+  height: 1080px;
+}
+.Four .bloc {
+  display: flex;
+  flex-direction: column;
+  gap: 65px;
+  padding: 240px;
+  padding-top: 64px;
+}
+.Four .bloc .logo {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.Four .bloc .Sphere {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.Four .bloc .Sphere h2 {
+  font-size: 30px;
+}
+.Four .bloc .Sphere .Options {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+.Four .bloc .Sphere .Options button {
+  display: flex;
+  align-items: center;
+  width: -moz-fit-content;
+  width: fit-content;
+  background: #FFFFFF;
+  border-radius: 12px;
+  gap: 10px;
+  color: #000000;
+  padding: 12px 28px;
+  font-size: 22px;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.Four .bloc .Sphere .Options button img {
+  width: 24px;
+  height: 24px;
+}
+.Four .bloc .Sphere .Options button:hover {
+  background-color: #8B5CF6;
+  color: #FFFFFF;
+}
+.Four .bloc .Sphere .Options button.active {
+  background-color: #8B5CF6;
+  color: #FFFFFF;
+}
+.Four .bloc .Good {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.Four .bloc .Good h2 {
+  font-size: 30px;
+}
+.Four .bloc .Good .Range {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 100%;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.Four .bloc .Good .Range .rectangle,
+.Four .bloc .Good .Range .rectangle1,
+.Four .bloc .Good .Range .rectangle2 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-color: #FFFFFF;
+  padding: 5px;
+  cursor: pointer;
+  margin-right: 0;
+  border-right: 1px solid #404040;
+}
+.Four .bloc .Good .Range .rectangle button,
+.Four .bloc .Good .Range .rectangle1 button,
+.Four .bloc .Good .Range .rectangle2 button {
+  width: 100%;
+  height: 20px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.Four .bloc .Good .Range .rectangle p,
+.Four .bloc .Good .Range .rectangle1 p,
+.Four .bloc .Good .Range .rectangle2 p {
+  position: absolute;
+  top: 45px;
+  font-size: 20px;
+  color: white;
+  margin: 0;
+}
+.Four .bloc .Good .Range .rectangle.selected,
+.Four .bloc .Good .Range .rectangle1.selected,
+.Four .bloc .Good .Range .rectangle2.selected {
+  background-color: #8B5CF6;
+}
+.Four .bloc .Good .Range .rectangle1 {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.Four .bloc .Good .Range .rectangle2 {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-right: none;
+}
+.Four .bloc .Good .Description {
+  display: flex;
+  justify-content: space-between;
+}
+.Four .bloc .Good .Description p {
+  font-size: 20px;
+}
+.Four .bloc .buttons {
+  display: flex;
+  align-items: flex-end;
+  gap: 24px;
+}
+.Four .bloc .buttons .Exit {
+  display: flex;
+}
+.Four .bloc .buttons .Exit button {
+  display: flex;
+  padding: 8px;
+  height: 45px;
+  width: 48px;
+  border-radius: 12px;
+}
+.Four .bloc .buttons .submit-btn {
+  display: inline-block;
+  height: 45px;
+  margin-top: 10px;
+  padding: 8px 20px;
+  font-size: 24px;
+  width: 180px;
+  background-color: #8B5CF6;
+  color: white;
+  text-decoration: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-align: center;
+}
+.Four .bloc .buttons .submit-btn:hover {
+  background-color: #FFFFFF;
+  color: #8B5CF6;
+}
+
+.Five {
+  display: flex;
+  width: 100%;
+  background: url(../assets/img/3.png);
+  justify-content: center;
+}
+.Five .bloc {
+  display: flex;
+  flex-direction: column;
+  gap: 65px;
+  padding: 240px;
+  padding-top: 64px;
+}
+.Five .bloc .logo {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.Five .bloc .Sphere {
+  display: flex;
+  flex-direction: column;
+  gap: 38px;
+}
+.Five .bloc .Sphere .Main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.Five .bloc .Sphere .Main h2 {
+  font-size: 30px;
+}
+.Five .bloc .Sphere .Main .Options {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+.Five .bloc .Sphere .Main .Options button {
+  align-items: center;
+  width: -moz-fit-content;
+  width: fit-content;
+  background: #FFFFFF;
+  border-radius: 12px;
+  gap: 10px;
+  color: #000000;
+  padding: 12px 28px;
+  font-size: 22px;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.Five .bloc .Sphere .Main .Options button:hover {
+  background-color: #8B5CF6;
+  color: #FFFFFF;
+}
+.Five .bloc .Sphere .Main .yes-no {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.Five .bloc .Sphere .Main .yes-no.active {
+  background-color: #8B5CF6;
+  color: #FFFFFF;
+}
+.Five .bloc .buttons {
+  display: flex;
+  align-items: flex-end;
+  gap: 24px;
+}
+.Five .bloc .buttons .Exit {
+  display: flex;
+}
+.Five .bloc .buttons .Exit button {
+  display: flex;
+  padding: 8px;
+  height: 45px;
+  width: 48px;
+  border-radius: 12px;
+}
+.Five .bloc .buttons .submit-btn {
+  display: inline-block;
+  height: 45px;
+  margin-top: 10px;
+  padding: 8px 20px;
+  font-size: 24px;
+  width: 180px;
+  background-color: #8B5CF6;
+  color: white;
+  text-decoration: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-align: center;
+}
+.Five .bloc .buttons .submit-btn:hover {
+  background-color: #FFFFFF;
+  color: #8B5CF6;
+}
+
+.Six {
+  display: flex;
+  width: 100%;
+  height: 1080px;
+  background: url(../assets/img/4.png);
+  justify-content: center;
+}
+.Six .bloc {
+  display: flex;
+  flex-direction: column;
+  gap: 65px;
+  padding: 240px;
+  padding-top: 64px;
+}
+.Six .bloc .logo {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.Six .bloc .Sphere {
+  display: flex;
+  flex-direction: column;
+  gap: 38px;
+}
+.Six .bloc .Sphere .Heading {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.Six .bloc .Sphere .Heading .text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.Six .bloc .Sphere .Heading .text h3 {
+  font-size: 20px;
+}
+.Six .bloc .Sphere .Heading .text .t {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.Six .bloc .Sphere .Heading .text .t h4 {
+  font-size: 16px;
+  color: #FFFFFF;
+  font-weight: 400;
+}
+.Six .bloc .Sphere .Inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 500px;
+}
+.Six .bloc .Sphere .Inputs input {
+  color: #FFFFFF;
+  border-bottom: 1px solid #FFFFFF;
+  font-size: 24px;
+  background: none;
+}
+.Six .bloc .Sphere .link {
+  text-decoration: none;
+  font-size: 16px;
+  color: #8B5CF6;
+}
+.Six .bloc .Sphere .link:hover {
+  text-decoration: underline;
+}
+.Six .bloc .buttons {
+  display: flex;
+  align-items: flex-end;
+  gap: 24px;
+}
+.Six .bloc .buttons .Exit {
+  display: flex;
+}
+.Six .bloc .buttons .Exit button {
+  display: flex;
+  padding: 8px;
+  height: 45px;
+  width: 48px;
+  border-radius: 12px;
+}
+.Six .bloc .buttons .submit-btn {
+  display: inline-block;
+  height: 45px;
+  margin-top: 10px;
+  padding: 8px 20px;
+  font-size: 24px;
+  width: 180px;
+  background-color: #8B5CF6;
+  color: white;
+  text-decoration: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-align: center;
+}
+.Six .bloc .buttons .submit-btn:hover {
+  background-color: #FFFFFF;
+  color: #8B5CF6;
+}
+
+.Seven {
+  display: flex;
+  width: 100%;
+  height: 1080px;
+  background: url(../assets/img/5.png);
+  justify-content: center;
+}
+.Seven .star {
+  font-size: 24px;
+  cursor: pointer;
+  color: lightgray;
+  direction: rtl;
+}
+.Seven .rating {
+  direction: ltr;
+}
+.Seven .star.selected {
+  color: gold;
+}
+.Seven .star:hover {
+  color: gold;
+}
+.Seven .star:hover ~ .star {
+  color: lightgray;
+}
+.Seven .bloc {
+  display: flex;
+  flex-direction: column;
+  gap: 65px;
+  padding: 240px;
+  padding-top: 64px;
+}
+.Seven .bloc .logo {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.Seven .bloc table {
+  width: -moz-fit-content;
+  width: fit-content;
+  border-top: 7px solid #FFFFFF;
+  border-collapse: collapse;
+  text-align: center;
+  border: 2px solid #dddddd;
+}
+.Seven .bloc td {
+  padding: 10px;
+  border: 2px solid #FFFFFF;
+}
+.Seven .bloc th {
+  text-align: center;
+  padding: 10px;
+  background: #404040;
+  border: 2px solid #FFFFFF;
+}
+.Seven .bloc .Sphere {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 540px;
+}
+.Seven .bloc .Sphere .t {
+  display: flex;
+  gap: 5px;
+}
+.Seven .bloc .buttons {
+  display: flex;
+  align-items: flex-end;
+  gap: 24px;
+}
+.Seven .bloc .buttons .Exit {
+  display: flex;
+}
+.Seven .bloc .buttons .Exit button {
+  display: flex;
+  padding: 8px;
+  height: 45px;
+  width: 48px;
+  border-radius: 12px;
+}
+.Seven .bloc .buttons .submit-btn {
+  display: inline-block;
+  height: 45px;
+  margin-top: 10px;
+  padding: 8px 20px;
+  font-size: 24px;
+  width: 180px;
+  background-color: #8B5CF6;
+  color: white;
+  text-decoration: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-align: center;
+}
+.Seven .bloc .buttons .submit-btn:hover {
+  background-color: #FFFFFF;
+  color: #8B5CF6;
+}
+
+.Eight {
+  display: flex;
+  width: 100%;
+  height: 1080px;
+  background: url(../assets/img/6.png);
+  justify-content: center;
+}
+.Eight .bloc {
+  display: flex;
+  flex-direction: column;
+  gap: 65px;
+  padding: 240px;
+  padding-top: 64px;
+}
+.Eight .bloc .logo {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.Eight .bloc .Main {
+  display: flex;
+  gap: 48px;
+}
+.Eight .bloc .Main .custom-select {
+  position: relative;
+  display: inline-block;
+}
+.Eight .bloc .Main label {
+  display: block;
+  font-size: 18px;
+  color: #FFFFFF;
+  margin-bottom: 8px;
+}
+.Eight .bloc .Main select {
+  width: 150px;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #FFFFFF;
+  font-size: 16px;
+  color: #000000;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  cursor: pointer;
+}
+.Eight .bloc .Main option {
+  color: #000000;
+  background-color: #FFFFFF;
+}
+.Eight .bloc .Main:focus option:checked {
+  background-color: #404040;
+  color: #FFFFFF;
+}
+.Eight .bloc .Main table {
+  width: 650px;
+  border-top: 7px solid #FFFFFF;
+  border-collapse: collapse;
+  text-align: center;
+  border: 2px solid #dddddd;
+}
+.Eight .bloc .Main td {
+  padding: 10px;
+  border: 2px solid #FFFFFF;
+}
+.Eight .bloc .Main th {
+  text-align: center;
+  padding: 10px;
+  background: #404040;
+  border: 2px solid #FFFFFF;
+}
+.Eight .bloc .buttons {
+  display: flex;
+  align-items: flex-end;
+  gap: 24px;
+}
+.Eight .bloc .buttons .Exit {
+  display: flex;
+}
+.Eight .bloc .buttons .Exit button {
+  display: flex;
+  padding: 8px;
+  height: 45px;
+  width: 48px;
+  border-radius: 12px;
+}
+.Eight .bloc .buttons .submit-btn {
+  display: inline-block;
+  height: 45px;
+  margin-top: 10px;
+  padding: 8px 20px;
+  font-size: 24px;
+  width: 180px;
+  background-color: #8B5CF6;
+  color: white;
+  text-decoration: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-align: center;
+}
+.Eight .bloc .buttons .submit-btn:hover {
+  background-color: #FFFFFF;
+  color: #8B5CF6;
+}
+
+.Nine {
+  display: flex;
+  width: 100%;
+  height: 1080px;
+  background: url(../assets/img/7.png);
+  justify-content: center;
+}
+.Nine .bloc {
+  display: flex;
+  flex-direction: column;
+  gap: 65px;
+  padding: 240px;
+  padding-top: 64px;
+}
+.Nine .bloc .logo {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.Nine .bloc table {
+  width: 650px;
+  border-top: 7px solid #FFFFFF;
+  border-collapse: collapse;
+  text-align: center;
+  border: 2px solid #dddddd;
+}
+.Nine .bloc td {
+  padding: 10px;
+  border: 2px solid #FFFFFF;
+}
+.Nine .bloc th {
+  text-align: center;
+  padding: 10px;
+  background: #404040;
+  border: 2px solid #FFFFFF;
+}
+.Nine .bloc .buttons {
+  display: flex;
+  align-items: flex-end;
+  gap: 24px;
+}
+.Nine .bloc .buttons .Exit {
+  display: flex;
+}
+.Nine .bloc .buttons .Exit button {
+  display: flex;
+  padding: 8px;
+  height: 45px;
+  width: 48px;
+  border-radius: 12px;
+}
+.Nine .bloc .buttons .submit-btn {
+  display: inline-block;
+  height: 45px;
+  margin-top: 10px;
+  padding: 8px 20px;
+  font-size: 24px;
+  width: 180px;
+  background-color: #8B5CF6;
+  color: white;
+  text-decoration: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-align: center;
+}
+.Nine .bloc .buttons .submit-btn:hover {
+  background-color: #FFFFFF;
+  color: #8B5CF6;
+}
+
+.Ten {
+  display: flex;
+  width: 100%;
+  height: 1080px;
+  background: url(../assets/img/8.png);
+  justify-content: center;
+}
+.Ten .bloc {
+  display: flex;
+  flex-direction: column;
+  gap: 65px;
+  padding: 240px;
+  padding-top: 64px;
+}
+.Ten .bloc .logo {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.Ten .bloc .Main {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.Ten .bloc .Main img {
+  width: 1000px;
+}
+.Ten .bloc .Main .submit-btn {
+  display: inline-block;
+  width: 246px;
+  margin-top: 10px;
+  padding: 8px 20px;
+  font-size: 24px;
+  background-color: #8B5CF6;
+  color: white;
+  text-decoration: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-align: center;
+}
+.Ten .bloc .Main .submit-btn:hover {
+  background-color: #FFFFFF;
+  color: #8B5CF6;
+}
+
+.bloc_len {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 15px;
+  gap: 80px;
+}
+.bloc_len header {
+  display: flex;
+  padding: 8px 24px;
+  border-radius: 16px;
+  background: #FFFFFF;
+  gap: 300px;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.bloc_len header .text {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+.bloc_len header .text p {
+  color: #8B5CF6;
+  font-size: 24px;
+}
+.bloc_len header .login-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 24px;
+  background-color: #8B5CF6;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-align: center;
+}
+.bloc_len header .login-btn:hover {
+  background-color: #FFFFFF;
+  color: #8B5CF6;
+}
+.bloc_len .Home {
+  display: flex;
+  padding: 240px;
+  gap: 20px;
+}
+.bloc_len .Home .text {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+.bloc_len .Home .text h3 {
+  font-size: 32px;
+}
+.bloc_len .About {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  padding: 240px;
+}
+.bloc_len .About .Slapa {
+  display: flex;
+  gap: 20px;
+}
+.bloc_len .About .Slapa .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.bloc_len .About .Slapa .text p {
+  font-size: 16px;
+}
+.bloc_len .About .Slapa .text .test {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+.bloc_len .About .Slapa .text .test h3 {
+  font-size: 32px;
+}
+.bloc_len .About .Slapa .text .test .custom-btn {
+  display: inline-block;
+  width: 246px;
+  padding: 10px 20px;
+  font-size: 24px;
+  background-color: #8B5CF6;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 20px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.bloc_len .About .Slapa .text .test .custom-btn:hover {
+  background-color: #ffffff;
+  color: #8B5CF6;
+}
+.bloc_len .Courses {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+.bloc_len .Courses .List {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+}
+.bloc_len .Courses .List .course {
+  box-shadow: 10px 10px 10px 0px #8B5CF6;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 32px 64px;
+  background: #404040;
+  border-radius: 16px;
+  gap: 32px;
+  width: 360px;
+  margin-bottom: 60px;
+}
+.bloc_len .Courses .List .course .text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+.bloc_len .Courses .List .course .text h3 {
+  font-size: 32px;
+}
+.bloc_len .Courses .List .course .text p {
+  font-size: 24px;
+}
+.bloc_len .Courses .List .course .whate {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.bloc_len .Courses .List .course .whate p {
+  font-size: 14px;
+  color: #A3A3A3;
+}
+.bloc_len .Courses .List .course .whate .punkti {
+  display: flex;
+  padding: 4px 8px;
+  background: #FFFFFF;
+  align-items: center;
+  border-radius: 8px;
+  justify-content: space-between;
+  width: 296px;
+}
+.bloc_len .Courses .List .course .whate .punkti .Name {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.bloc_len .Courses .List .course .whate .punkti .Name p {
+  font-size: 24px;
+  color: #000000;
+}
+.bloc_len .Courses .List .course button {
+  background: #FFFFFF;
+  color: #000000;
+  font-size: 24px;
+  padding: 8px 24px;
+  border-radius: 12px;
+  width: 117px;
+}
+.bloc_len .Courses .List .course2 {
+  display: flex;
+  box-shadow: 10px 10px 10px 0px #8B5CF6;
+  align-items: center;
+  flex-direction: column;
+  padding: 32px 80px;
+  background: #404040;
+  border-radius: 16px;
+  gap: 32px;
+  width: 360px;
+}
+.bloc_len .Courses .List .course2 .text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+.bloc_len .Courses .List .course2 .text h3 {
+  font-size: 32px;
+  text-align: center;
+}
+.bloc_len .Courses .List .course2 .text p {
+  font-size: 24px;
+}
+.bloc_len .Courses .List .course2 .whate {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.bloc_len .Courses .List .course2 .whate p {
+  font-size: 14px;
+  color: #A3A3A3;
+}
+.bloc_len .Courses .List .course2 .whate .punkti {
+  display: flex;
+  padding: 4px 8px;
+  background: #FFFFFF;
+  align-items: center;
+  border-radius: 8px;
+  justify-content: space-between;
+  width: 296px;
+}
+.bloc_len .Courses .List .course2 .whate .punkti .Name {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.bloc_len .Courses .List .course2 .whate .punkti .Name p {
+  font-size: 24px;
+  color: #000000;
+}
+.bloc_len .Courses .List .course2 button {
+  background: #FFFFFF;
+  color: #000000;
+  font-size: 24px;
+  padding: 8px 24px;
+  border-radius: 12px;
+  width: 117px;
+}
+.bloc_len .Vakansii {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+.bloc_len .Vakansii .cartogki {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+.bloc_len .Vakansii .cartogki .one {
+  display: flex;
+  gap: 48px;
+}
+.bloc_len .Vakansii .cartogki .one .Vacansia {
+  display: flex;
+  flex-direction: column;
+}
+.bloc_len .Vakansii .cartogki .one .Vacansia img {
+  border-radius: 16px 16px 0 0;
+}
+.bloc_len .Vakansii .cartogki .one .Vacansia .main {
+  display: flex;
+  flex-direction: column;
+  background: #404040;
+  padding: 24px 24px;
+  gap: 24px;
+  border-radius: 0 0 16px 16px;
+}
+.bloc_len .Vakansii .cartogki .one .Vacansia .main h3 {
+  font-size: 32px;
+}
+.bloc_len .Vakansii .cartogki .one .Vacansia .main .Info {
+  display: flex;
+  gap: 86px;
+  justify-content: space-around;
+}
+.bloc_len .Vakansii .cartogki .one .Vacansia .main .Info .text {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.bloc_len .Vakansii .cartogki .one .Vacansia .main .Info .text h4 {
+  font-size: 24px;
+}
+.bloc_len .Vakansii .cartogki .one .Vacansia .main .Info .text p {
+  font-size: 16px;
+  color: #A3A3A3;
+}
+.bloc_len .Vakansii .cartogki .one .Vacansia .main .Info button {
+  background: #8B5CF6;
+  padding: 8px 20px;
+  border-radius: 12px;
+  font-size: 24px;
+}
+.bloc_len footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: #FFFFFF;
+  padding: 24px;
+  gap: 48px;
+}
+.bloc_len footer .text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 24px;
+}
+.bloc_len footer .text p {
+  color: #8B5CF6;
+  font-size: 24px;
+}
+.bloc_len footer .connection {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.bloc_len footer .connection .icon {
+  display: flex;
+  gap: 16px;
+}
+.bloc_len footer .connection p {
+  color: #8B5CF6;
+  font-size: 24px;
+}
+
+@font-face {
+  font-family: "Bold";
+  src: url(/assets/fonts/SF-Pro-Display-Bold.otf);
+}
+@font-face {
+  font-family: "Regular";
+  src: url(/assets/fonts/SFProText-Regular.ttf);
+}
+@font-face {
+  font-family: "SemiBold";
+  src: url(/assets/fonts/SF-Pro-Display-Semibold.otf);
+}/*# sourceMappingURL=style.css.map */
