@@ -1034,8 +1034,9 @@ body {
 }
 .bloc_len .Home {
   display: flex;
-  padding: 240px;
-  gap: 20px;
+  padding-left: 240px;
+  padding-right: 240px;
+  gap: 48px;
 }
 .bloc_len .Home .text {
   display: flex;
@@ -1049,11 +1050,12 @@ body {
   display: flex;
   flex-direction: column;
   gap: 48px;
-  padding: 240px;
+  padding-left: 240px;
+  padding-right: 240px;
 }
 .bloc_len .About .Slapa {
   display: flex;
-  gap: 20px;
+  gap: 38px;
 }
 .bloc_len .About .Slapa .text {
   display: flex;
@@ -1092,10 +1094,12 @@ body {
   display: flex;
   flex-direction: column;
   gap: 48px;
+  padding-left: 240px;
+  padding-right: 240px;
 }
 .bloc_len .Courses .List {
   display: flex;
-  gap: 100px;
+  gap: 164px;
   justify-content: center;
 }
 .bloc_len .Courses .List .course {
